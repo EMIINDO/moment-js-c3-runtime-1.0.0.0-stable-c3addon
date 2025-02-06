@@ -1,0 +1,305 @@
+{
+  "momentjs": {
+    "conditions": [],
+    "actions": [
+      {
+        "id": "createmo",
+        "scriptName": "createMo",
+        "highlight": false,
+        "params": [
+          {
+            "id": "argument0",
+            "type": "any",
+            "initialValue": "\"\""
+          },
+          {
+            "id": "argument1",
+            "type": "any",
+            "initialValue": "\"\""
+          },
+          {
+            "id": "argument2",
+            "type": "any",
+            "initialValue": "\"\""
+          },
+          {
+            "id": "argument3",
+            "type": "any",
+            "initialValue": "\"\""
+          }
+        ]
+      },
+      {
+        "id": "format",
+        "scriptName": "format",
+        "highlight": false,
+        "params": [
+          {
+            "id": "format",
+            "type": "string",
+            "initialValue": "\"\""
+          }
+        ]
+      },
+      {
+        "id": "unix",
+        "scriptName": "unix",
+        "highlight": false,
+        "params": [
+          {
+            "id": "number",
+            "type": "number",
+            "initialValue": "0"
+          }
+        ]
+      },
+      {
+        "id": "utc",
+        "scriptName": "utc",
+        "highlight": false
+      },
+      {
+        "id": "sets",
+        "scriptName": "sets",
+        "highlight": false,
+        "params": [
+          {
+            "id": "type",
+            "type": "string",
+            "initialValue": "\"\""
+          },
+          {
+            "id": "sets",
+            "type": "number",
+            "initialValue": "-1"
+          }
+        ]
+      },
+      {
+        "id": "adds",
+        "scriptName": "adds",
+        "highlight": false,
+        "params": [
+          {
+            "id": "val",
+            "type": "number",
+            "initialValue": "0"
+          },
+          {
+            "id": "type",
+            "type": "combo",
+            "items": [
+              "years",
+              "quarters",
+              "months",
+              "weeks",
+              "days",
+              "hours",
+              "minutes",
+              "seconds",
+              "milliseconds"
+            ],
+            "initialValue": "minutes"
+          }
+        ]
+      },
+      {
+        "id": "substract",
+        "scriptName": "substract",
+        "highlight": false,
+        "params": [
+          {
+            "id": "val",
+            "type": "number",
+            "initialValue": "0"
+          },
+          {
+            "id": "type",
+            "type": "combo",
+            "items": [
+              "years",
+              "quarters",
+              "months",
+              "weeks",
+              "days",
+              "hours",
+              "minutes",
+              "seconds",
+              "milliseconds"
+            ],
+            "initialValue": "minutes"
+          }
+        ]
+      },
+      {
+        "id": "startof",
+        "scriptName": "startOF",
+        "highlight": false,
+        "params": [
+          {
+            "id": "type",
+            "type": "combo",
+            "items": [
+              "year",
+              "month",
+              "quarter",
+              "week",
+              "isoWeek",
+              "day",
+              "date",
+              "hour",
+              "minute",
+              "second"
+            ],
+            "initialValue": "year"
+          }
+        ]
+      },
+      {
+        "id": "endof",
+        "scriptName": "endOF",
+        "highlight": false,
+        "params": [
+          {
+            "id": "type",
+            "type": "combo",
+            "items": [
+              "year",
+              "month",
+              "quarter",
+              "week",
+              "isoWeek",
+              "day",
+              "date",
+              "hour",
+              "minute",
+              "second"
+            ],
+            "initialValue": "year"
+          }
+        ]
+      },
+      {
+        "id": "setlocale",
+        "scriptName": "setLocale",
+        "highlight": false,
+        "params": [
+          {
+            "id": "locale",
+            "type": "string",
+            "initialValue": "fr"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "id": "getstring",
+        "expressionName": "getString",
+        "returnType": "string"
+      },
+      {
+        "id": "isvalid",
+        "expressionName": "isValid",
+        "returnType": "number"
+      },
+      {
+        "id": "gets",
+        "expressionName": "gets",
+        "returnType": "string",
+        "params": [
+          {
+            "id": "data",
+            "type": "string",
+            "initialValue": "year"
+          }
+        ]
+      },
+      {
+        "id": "fromnow",
+        "expressionName": "fromNow",
+        "returnType": "string",
+        "params": [
+          {
+            "id": "data",
+            "type": "number",
+            "initialValue": "0"
+          }
+        ]
+      },
+      {
+        "id": "tonow",
+        "expressionName": "toNow",
+        "returnType": "string",
+        "params": [
+          {
+            "id": "data",
+            "type": "number",
+            "initialValue": "0"
+          }
+        ]
+      },
+      {
+        "id": "isbefore",
+        "expressionName": "isbefore",
+        "returnType": "number",
+        "params": [
+          {
+            "id": "data1",
+            "type": "any",
+            "initialValue": "0"
+          },
+          {
+            "id": "data2",
+            "type": "any",
+            "initialValue": "0"
+          }
+        ]
+      },
+      {
+        "id": "issame",
+        "expressionName": "issame",
+        "returnType": "number",
+        "params": [
+          {
+            "id": "data1",
+            "type": "any",
+            "initialValue": "0"
+          },
+          {
+            "id": "data2",
+            "type": "any",
+            "initialValue": "0"
+          }
+        ]
+      },
+      {
+        "id": "isdst",
+        "expressionName": "isdst",
+        "returnType": "number"
+      },
+      {
+        "id": "isafter",
+        "expressionName": "isafter",
+        "returnType": "number",
+        "params": [
+          {
+            "id": "data1",
+            "type": "any",
+            "initialValue": "0"
+          },
+          {
+            "id": "data2",
+            "type": "any",
+            "initialValue": "0"
+          }
+        ]
+      },
+      {
+        "id": "isleap",
+        "expressionName": "isleap",
+        "returnType": "number"
+      }
+    ]
+  }
+}

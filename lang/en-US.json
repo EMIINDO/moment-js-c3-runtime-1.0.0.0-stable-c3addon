@@ -1,0 +1,284 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for MomentJS Plugin",
+  "text": {
+    "plugins": {
+      "massivecube_momentjs": {
+        "name": "MomentJS",
+        "description": "Parse, validate, manipulate, and display dates and times in JavaScript.",
+        "help-url": "https://github.com/armandoalonso/c3IDE",
+        "properties": {},
+        "aceCategories": {
+          "momentjs": "Moment JS"
+        },
+        "conditions": {},
+        "actions": {
+          "createmo": {
+            "list-name": "Create Moment",
+            "display-text": "Create Moment {0} {1} {2} {3}",
+            "description": "Create Moment",
+            "params": {
+              "argument0": {
+                "name": "Argument0",
+                "desc": "Argument0"
+              },
+              "argument1": {
+                "name": "Argument1",
+                "desc": "Argument1"
+              },
+              "argument2": {
+                "name": "Argument2",
+                "desc": "Argument2"
+              },
+              "argument3": {
+                "name": "Argument3",
+                "desc": "Argument3"
+              }
+            }
+          },
+          "format": {
+            "list-name": "Moment format",
+            "display-text": "Moment format {0}",
+            "description": "Moment format",
+            "params": {
+              "format": {
+                "name": "Format",
+                "desc": "Format"
+              }
+            }
+          },
+          "unix": {
+            "list-name": "Moment unix",
+            "display-text": "Moment unix {0}",
+            "description": "Create a moment from a Unix timestamp.",
+            "params": {
+              "number": {
+                "name": "Number",
+                "desc": "Number"
+              }
+            }
+          },
+          "utc": {
+            "list-name": "Moment convert to utc",
+            "display-text": "Moment convert to utc",
+            "description": "Moment convert to utc"
+          },
+          "sets": {
+            "list-name": "Sets",
+            "display-text": "Sets to {0} {1}",
+            "description": "Sets",
+            "params": {
+              "type": {
+                "name": "Type",
+                "desc": "Type"
+              },
+              "sets": {
+                "name": "Sets",
+                "desc": "Sets"
+              }
+            }
+          },
+          "adds": {
+            "list-name": "Add",
+            "display-text": "Add {0} {1}",
+            "description": "Add",
+            "params": {
+              "val": {
+                "name": "Value",
+                "desc": "Value"
+              },
+              "type": {
+                "name": "Type",
+                "desc": "Set type",
+                "items": {
+                  "years": "Years",
+                  "quarters": "Quarters",
+                  "months": "Months",
+                  "weeks": "Weeks",
+                  "days": "Days",
+                  "hours": "Hours",
+                  "minutes": "Minutes",
+                  "seconds": "Seconds",
+                  "milliseconds": "Milliseconds"
+                }
+              }
+            }
+          },
+          "substract": {
+            "list-name": "Substract",
+            "display-text": "Substract {0} {1}",
+            "description": "Substract",
+            "params": {
+              "val": {
+                "name": "Value",
+                "desc": "Value"
+              },
+              "type": {
+                "name": "Type",
+                "desc": "Set type",
+                "items": {
+                  "years": "Years",
+                  "quarters": "Quarters",
+                  "months": "Months",
+                  "weeks": "Weeks",
+                  "days": "Days",
+                  "hours": "Hours",
+                  "minutes": "Minutes",
+                  "seconds": "Seconds",
+                  "milliseconds": "Milliseconds"
+                }
+              }
+            }
+          },
+          "startof": {
+            "list-name": "StartOf",
+            "display-text": "StartOf {0}",
+            "description": "StartOf",
+            "params": {
+              "type": {
+                "name": "Type",
+                "desc": "Set type",
+                "items": {
+                  "year": "Year",
+                  "month": "Month",
+                  "quarter": "Quarter",
+                  "week": "Week",
+                  "isoWeek": "isoWeek",
+                  "day": "Day",
+                  "date": "Date",
+                  "hour": "Hour",
+                  "minute": "Minute",
+                  "second": "Second"
+                }
+              }
+            }
+          },
+          "endof": {
+            "list-name": "EndOf",
+            "display-text": "EndOf {0}",
+            "description": "EndOf",
+            "params": {
+              "type": {
+                "name": "Type",
+                "desc": "Set type",
+                "items": {
+                  "year": "Year",
+                  "month": "Month",
+                  "quarter": "Quarter",
+                  "week": "Week",
+                  "isoWeek": "isoWeek",
+                  "day": "Day",
+                  "date": "Date",
+                  "hour": "Hour",
+                  "minute": "Minute",
+                  "second": "Second"
+                }
+              }
+            }
+          },
+          "setlocale": {
+            "list-name": "Set Locale",
+            "display-text": "Set Locale to {0}",
+            "description": "Set Locale",
+            "params": {
+              "locale": {
+                "name": "Locale",
+                "desc": "Locale"
+              }
+            }
+          }
+        },
+        "expressions": {
+          "getstring": {
+            "description": "Get result as string",
+            "translated-name": "Get result as string"
+          },
+          "isvalid": {
+            "description": "is Valid?",
+            "translated-name": "is Valid?"
+          },
+          "gets": {
+            "description": "Gets",
+            "translated-name": "Gets",
+            "params": {
+              "data": {
+                "name": "Data",
+                "desc": "year, month, date, hour, minute, second, millisecond"
+              }
+            }
+          },
+          "fromnow": {
+            "description": "From Now",
+            "translated-name": "From Now",
+            "params": {
+              "data": {
+                "name": "0",
+                "desc": "0 false or 1 true"
+              }
+            }
+          },
+          "tonow": {
+            "description": "To Now",
+            "translated-name": "To Now",
+            "params": {
+              "data": {
+                "name": "0",
+                "desc": "0 false or 1 true"
+              }
+            }
+          },
+          "isbefore": {
+            "description": "is before?",
+            "translated-name": "isBefore",
+            "params": {
+              "data1": {
+                "name": "Argument0",
+                "desc": "Argument0"
+              },
+              "data2": {
+                "name": "Argument1",
+                "desc": "Argument1"
+              }
+            }
+          },
+          "issame": {
+            "description": "is same?",
+            "translated-name": "isSame",
+            "params": {
+              "data1": {
+                "name": "Argument0",
+                "desc": "Argument0"
+              },
+              "data2": {
+                "name": "Argument1",
+                "desc": "Argument1"
+              }
+            }
+          },
+          "isdst": {
+            "description": "Checks if the current moment is in daylight saving time.",
+            "translated-name": "isDST"
+          },
+          "isafter": {
+            "description": "is after?",
+            "translated-name": "isAfter",
+            "params": {
+              "data1": {
+                "name": "Argument0",
+                "desc": "Argument0"
+              },
+              "data2": {
+                "name": "Argument1",
+                "desc": "Argument1"
+              }
+            }
+          },
+          "isleap": {
+            "description": "Returns 1 if that year is a leap year, and 0 if it is not.",
+            "translated-name": "isLeapYear"
+          }
+        }
+      }
+    }
+  }
+}
